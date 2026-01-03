@@ -6,11 +6,12 @@ public class BankAccount {
       BankAccount(String n,int b)
       {
     	  name = n;
-    	  balance =b;
+    	  balance = b;
       }
 	public static void main(String[] args) {
 		BankAccount acc = new BankAccount ("Neha",50000);
-		System.out.println("Name: "+acc.name + "\n"+ "Balnce: "+ acc.balance);
+		System.out.println("Name: "+acc.name + "\n"+ "Balance: "+ acc.balance);
 	}
-
+      
 }
+      
